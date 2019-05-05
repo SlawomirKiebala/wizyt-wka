@@ -1,0 +1,69 @@
+@import url('reset.css');
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+
+html {
+    font-size: 10px;
+    font-family: 'Ubuntu', sans-serif;
+}
+#main {
+    width: 40%;
+    height: 40%;
+    border: .2rem solid gray;
+    padding: 2rem;
+    border-radius: .4rem;
+    text-align: justify;
+    margin: 4rem auto;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    display: block;
+    align-items: center;
+    justify-content: center;
+}
+
+.image {
+    background-color: lightgray;
+    width: 8rem;
+    height: 8rem;
+    padding: .6rem;
+    border-radius: 50%;
+    position: relative;
+    margin:auto;
+}
+.image img {
+    border-radius: 50%;
+    margin: auto;
+}
+
+#main h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-align: center;
+    margin: 2rem;
+    letter-spacing: .6rem;
+    color: rgb(64, 98, 109);
+}
+
+#main p{
+    text-indent: 4rem;
+    line-height: 3rem;
+    border-block-start: .1rem solid grey;
+    margin-top: 1.5rem;
+    font-size: 1.8rem;
+    color: gray;
+    margin-bottom: 2rem;
+}
+i {
+    color: rgb(64, 98, 109);
+    font-size: 2.5rem;
+    margin-right: 1rem;
+}
+#main p::first-letter{
+    font-weight: bold;
+    font-size: 2.6rem;
+}
+
+#main p:last-child{
+    text-align: center;
+}
